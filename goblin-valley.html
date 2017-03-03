@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>RMC Treks</title>
+        <title>Goblin Valley, Utah</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
@@ -71,10 +71,10 @@
                             <div class="menu-holder">
                                 <ul>
                                     <li class="submenu">
-                                        <a href="index.html">Home</a>
+                                        <a href="index.html" class="active-item">Home</a>
                                     </li>                                    
                                     <li>
-                                        <a href="treks.html" class="active-item">Treks</a>
+                                        <a href="treks.html">Treks</a>
                                     </li>                                    
                                     <li class="submenu">
                                         <a href="javascript:void(0)">Blog</a>
@@ -131,83 +131,225 @@
                 <!--  Slider  -->
                 <div id="flexslider" class="fullpage-wrap small">
                     <ul class="slides">
-                        <li style="background-image:url(assets/img/trip8.jpg)">
+                        <li style="background-image:url(assets/img/trip11.jpg)">
                             <div class="container text text-center">
-                                <h1 class="white margin-bottom-small">All Treks</h1>
+                                <h1 class="white margin-bottom-small">Le Brévent - Point Noire de Pormenaz</h1>
                                 <p class="heading white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam aperiam rerum quis atque, illum.</p>
                             </div>
                             <div class="gradient dark"></div>
                         </li>
                         <ol class="breadcrumb">
                             <li><a href="#">Home</a></li>
-                            <li class="active">Treks</li>
+                            <li class="active">Le Brévent - Point Noire de Pormenaz</li>
                         </ol>
                     </ul>
                 </div>
                 <!--  END Slider  -->
-                <div id="page-wrap" class="content-section fullpage-wrap grey-background">
-                    <div class="container text">
-                        <section id="masonry-filters" class="">
-                            <!--  Filters  -->
-                            <div class="row margin-null">
-                                <div class="col-sm-12 padding-leftright-null text-center">
-                                    <ul class="col-md-12 filters padding-leftright-null">
-                                        <li data-filter="*" class="is-checked">All</li>
-                                        <li data-filter=".hiking">Hiking</li>
-                                        <li data-filter=".camping">Camping</li>
-                                        <li data-filter=".canyoning">Canyoning</li>
-                                        <li data-filter=".adventure">Adventure</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--  END Filters  -->
-                        </section>
-                        <!--  All treks  -->
-                        <section id="showcase-treks" class="page" data-isotope="load-simple">
-                            <div class="masonry-items two-columns">
-                                <!--  Single Trek  -->
-                                <div class="item one-item camping">
-                                    <div class="showcase-trek">                                        
-                                        <img src="assets/img/goblinvalley.jpg" alt="Camping Goblin Valley State Park Utah">
-                                        <div class="content text-center">
-                                            <div class="row margin-leftright-null">
-                                                <div class="meta">                                                    
-                                                    <div class="col-md-4 col-md-offset-4 padding-leftright-null">
-                                                        <h3>10</h3>
-                                                        <h4>Max Group Size</h4>
-                                                    </div>                                                    
-                                                </div>
-                                                <div class="category">
-                                                    <h3>Camping</h3>
-                                                </div>
-                                                <div class="info">
-                                                    <div class="col-md-12 padding-leftright-null">
-                                                        <h6>Goblin Valley</h6>
-                                                        <p class="margin-null">Goblin Valley State Park, Utah</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="goblin-valley.html" class="link"></a>
+                <div id="post-wrap" class="content-section fullpage-wrap">
+                    <!-- Section same Height. Child get the parent Height. Set the same id -->
+                    <div class="row margin-leftright-null">
+                        <div class="container">
+                            <!-- About -->
+                            <div class="col-lg-6 padding-leftright-null">
+                                <div data-responsive="parent-height" data-responsive-id="adv" class="text padding-lg-bottom-null">
+                                    <h2 class="margin-bottom-null title line left">Beatiful Trek</h2>
+                                    <p class="heading left grey margin-bottom-null">Discover the wild nature</p>
+                                    <div class="padding-onlytop-md">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero architecto, nesciunt, modi nam reprehenderit eligendi impedit perferendis consequuntur doloribus aliquid officiis ipsa id asperiores eius magnam ut ducimus ipsum dolor nihil molestias commodi quasi sapiente qui explicabo. Soluta, eum, quia.</p>
                                     </div>
                                 </div>
-                                <!--  END Single Trek  -->
-                                <div class="item one-item hiking adventure">
-                                    <div class="showcase-trek">                                      
-                                        <img src="assets/img/the_wave_group.jpg" alt="The Wave Kanab Utah South Coyote Buttes">
+                            </div>
+                            <!-- END About -->
+                            <div class="col-lg-6 padding-leftright-null">
+                                <div data-responsive="child-height" data-responsive-id="adv" class="text padding-md-top-null height-auto-lg">
+                                    <div class="grey-background box-shadow text responsive-padding-sm">
+                                        <!-- Hiker -->
+                                        <div class="hiker">
+                                            <img src="assets/img/hiker1.jpg" alt="">
+                                            <h3 class="">Mountain Guide</h3>
+                                            <span class="meta grey">Name: John Doe</span>
+                                            <span class="meta grey">Nation: Italy</span>
+                                            <ul class="social">
+                                                <li>
+                                                    <a href=""><i class="icon ion-social-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon ion-social-dribbble"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon ion-social-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon ion-social-snapchat"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- END Hiker -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Section same Height. Child get the parent Height. Set the same id -->
+                    <div class="row margin-leftright-null grey-background">
+                        <div class="container">
+                            <div class="col-md-12 text padding-bottom-null text-center">
+                                <h2 class="margin-bottom-null title line center">More info</h2>
+                                <p class="heading center grey margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <!-- Trek Data -->
+                            <div class="text padding-bottom-null trek-data text-center">
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-money service big margin-bottom-null"></i>
+                                    <em>Price</em>
+                                    <h3 class="color">390€</h3>
+                                </div>
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-hour service big margin-bottom-null"></i>
+                                    <em>Data</em>
+                                    <h3 class="color">12/02/2017</h3>
+                                </div>
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-camp-bag service big margin-bottom-null"></i>
+                                    <em>Difficulty</em>
+                                    <h3 class="color">Hight</h3>
+                                </div>
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-male service big margin-bottom-null"></i>
+                                    <em>Max Group Size</em>
+                                    <h3 class="color">20</h3>
+                                </div>
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-watch service big margin-bottom-null"></i>
+                                    <em>Days</em>
+                                    <h3 class="color">2</h3>
+                                </div>
+                                <div class="col-sm-4 col-md-2">
+                                    <i class="pd-icon-distance service big margin-bottom-null"></i>
+                                    <em>Distance</em>
+                                    <h3 class="color">10,3 Km</h3>
+                                </div>
+                            </div>
+                            <!-- END Trek Data -->
+                            <div class="col-md-12 text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquid scire se gaudeant? <b>Immo alio genere;</b> <i>Quod vestri non item.</i> Duo Reges: constructio interrete. Est enim effectrix multarum et magnarum voluptatum. Sed quanta sit alias, nunc tantum possitne esse tanta. <i>Sint ista Graecorum;</i> Consequens enim est et post oritur, ut dixi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore placeat recusandae doloribus laborum, dignissimos nisi sit ea temporibus ut, accusamus, impedit perferendis deleniti odit! Dicta.</p>
+                                <p><b>Quid ait Aristoteles reliquique Platonis alumni?</b> <a href='#' target='_blank'>Praeteritis, inquit, gaudeo.</a> Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Hoc enim constituto in philosophia constituta sunt omnia. Et non ex maxima parte de tota iudicabis? Tum ille timide vel potius verecunde: Facio, inquit. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Google map trek. Go to Google Maps, choose walking trail and share with iframe -->
+                    <div class="row margin-leftright-null trek-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d22191.286418480635!2d6.8025366289428435!3d45.95306515645095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x47895206a5aac83d%3A0x1a904355940831b!2sLe+Br%C3%A9vent!3m2!1d45.933853899999995!2d6.8375189999999995!4m5!1s0x478953b28f1da1f9%3A0x1ee9d7d8d8b5a1b3!2sPointe+Noire+de+Pormenaz!3m2!1d45.958436!2d6.801139!5e0!3m2!1sit!2sus!4v1479291389776" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!-- END Google map trek. Go to Google Maps, choose walking trail and share with iframe -->
+                    <div class="row margin-leftright-null">
+                        <div class="container text">
+                            <div class="col-md-12 text padding-top-null text-center">
+                                <h2 class="margin-bottom-null title line center">Gallery</h2>
+                                <p class="heading center grey margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <!-- Simple Gallery -->
+                            <section class="grid-images padding-top-null">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="image simple-shadow" style="background-image:url(assets/img/trip6.jpg)">
+                                            <a class="lightbox-image" href="assets/img/item1.jpg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="image simple-shadow" style="background-image:url(assets/img/trip7.jpg)">
+                                            <a class="lightbox-image" href="assets/img/item2.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row padding-onlytop-sm">
+                                    <div class="col-md-6">
+                                        <div class="image simple-shadow" style="background-image:url(assets/img/trip8.jpg)">
+                                            <a class="lightbox-image" href="assets/img/item3.jpg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="image simple-shadow" style="background-image:url(assets/img/trip9.jpg)">
+                                            <a class="lightbox-image" href="assets/img/item4.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- END Simple Gallery -->
+                        </div>
+                    </div>
+                    <!--  Share Btn  -->
+                    <!--  Section Image Background with overlay  -->
+                    <div class="row margin-leftright-null grey-background">
+                        <div class="bg-img overlay simple-parallax responsive" style="background-image:url(assets/img/testimonials.jpg)">
+                            <div class="container">
+                                <!-- Testimonials -->
+                                <section class="testimonials-carousel-simple col-md-12 text padding-bottom-null">
+                                    <div class="item padding-leftright-null">
+                                        <div class="padding-top-null padding-bottom-null">
+                                            <blockquote class="margin-bottom-small white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!<em class="small grey-light">John Doe</em></blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="item padding-leftright-null">
+                                        <div class="padding-top-null padding-bottom-null">
+                                            <blockquote class="margin-bottom-small white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum fugiat molestias, veritatis perspiciatis laborum modi beatae placeat explicabo at laudantium aliquam, nam vero ut!<em class="small grey-light">Vanessa Brown</em></blockquote>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- END Testimonials -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--  END Section Image Background with overlay  -->
+                    <!-- Share Btn -->
+                    <div id="share">
+                        <a class="share-btn">
+                            <i class="icon ion-android-share-alt"></i>
+                        </a>
+                        <div class="share-icons" style="display:none">
+                            <a href="" class="share-google">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="share-twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="share-linkedin">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="share-mail">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--  END Share Btn  -->
+                    <!-- Similar Trips -->
+                    <div id="showcase-treks" class="row margin-leftright-null grey-background">
+                        <div class="container">
+                            <div class="col-md-12 text padding-bottom-null text-center">
+                                <h2 class="margin-bottom-null title line center">Similar Trips</h2>
+                                <p class="heading center grey margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="col-md-12 text" id="treks">
+                                <!-- Single Trip -->
+                                <div class="item col-md-6">
+                                    <div class="showcase-trek">
+                                        <span class="read">
+                                            from 820$
+                                        </span>
+                                        <img src="assets/img/trip5.jpg" alt="">
                                         <div class="content text-center">
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>6</h3>
-                                                        <h4>Hours</h4>
+                                                        <h3>12</h3>
+                                                        <h4>Days</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>6</h3>
+                                                        <h3>10</h3>
                                                         <h4>Max Group Size</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>High</h3>
+                                                        <h3>Hight</h3>
                                                         <h4>Difficulty</h4>
                                                     </div>
                                                 </div>
@@ -216,62 +358,27 @@
                                                 </div>
                                                 <div class="info">
                                                     <div class="col-md-12 padding-leftright-null">
-                                                        <h6 class="heading">The Wave</h6>
-                                                        <p class="margin-null">Kanab, Utah</p>
+                                                        <h6 class="heading">Everest Base Camp</h6>
+                                                        <p class="margin-null">Ama Dablam, Nepal</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="the-wave.html" class="link"></a>
+                                        <a href="single-trek-2.html" class="link"></a>
                                     </div>
                                 </div>
-                                <div class="item one-item canyoning adventure">
+                                <!-- END Single Trip -->
+                                <div class="item col-md-6">
                                     <div class="showcase-trek">
                                         <span class="read">
-                                            from 120$
+                                            from 320$
                                         </span>
-                                        <img src="assets/img/trip3.jpg" alt="">
+                                        <img src="assets/img/trip6.jpg" alt="">
                                         <div class="content text-center">
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>1</h3>
-                                                        <h4>Days</h4>
-                                                    </div>
-                                                    <div class="col-md-4 padding-leftright-null">
-                                                        <h3>20</h3>
-                                                        <h4>Max Group Size</h4>
-                                                    </div>
-                                                    <div class="col-md-4 padding-leftright-null">
-                                                        <h3>Medium</h3>
-                                                        <h4>Difficulty</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="category">
-                                                    <h3>Canyoning Expedition</h3>
-                                                </div>
-                                                <div class="info">
-                                                    <div class="col-md-12 padding-leftright-null">
-                                                        <h6 class="heading">Valley of Piave</h6>
-                                                        <p class="margin-null">Dolomiti, Italy</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="single-trek.html" class="link"></a>
-                                    </div>
-                                </div>
-                                <div class="item one-item trekking">
-                                    <div class="showcase-trek">
-                                        <span class="read">
-                                            from 550$
-                                        </span>
-                                        <img src="assets/img/trip4.jpg" alt="">
-                                        <div class="content text-center">
-                                            <div class="row margin-leftright-null">
-                                                <div class="meta">
-                                                    <div class="col-md-4 padding-leftright-null">
-                                                        <h3>8</h3>
+                                                        <h3>3</h3>
                                                         <h4>Days</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
@@ -280,35 +387,36 @@
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
                                                         <h3>Easy</h3>
-                                                        <h4>Difficolty</h4>
+                                                        <h4>Difficulty</h4>
                                                     </div>
                                                 </div>
                                                 <div class="category">
                                                     <h3>Trekking Expedition</h3>
                                                 </div>
                                                 <div class="info">
-                                                    <div class="col-md-12">
-                                                        <h6>Eolie Island</h6>
-                                                        <p class="margin-null">Eolie Island, Italy</p>
+                                                    <div class="col-md-12 padding-leftright-null">
+                                                        <h6 class="heading">Monte Bianco</h6>
+                                                        <p class="margin-null">Courmayeur, France</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="single-trek-2.html" class="link"></a>
+                                        <a href="standard-project.html" class="link"></a>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                        <!--  END All treks  -->
+                        </div>
                     </div>
-                    <!--  Call to Action  -->
-                    <div class="row margin-leftright-null color-background">
-                        <div class="col-md-12 text text-center">
-                            <h4 class="big white margin-bottom-small">Would you like more info about other trips?</h4>
+                    <!-- END Similar Trips -->
+                    <!-- Call to Action -->
+                    <div class="row text margin-leftright-null color-background">
+                        <div class="col-md-12 text-center">
+                            <h4 class="big white">Would you like more info about this trip?</h4>
+                            <h4 class="big margin-bottom-small white">Call us at <a href="" class="btn-pro simple white">+40 45615654</a> or</h4>
                             <a href="#" target="_blank" class="btn-alt small white margin-null active shadow">Contact us</a>
                         </div>
                     </div>
-                    <!--  END Call to Action  -->
+                    <!-- END Call to Action -->
                 </div>
             </div>
             <!--  END Page Content, class footer-fixed if footer is fixed  -->

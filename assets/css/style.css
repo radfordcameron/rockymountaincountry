@@ -4090,7 +4090,7 @@ header nav.navbar.white #search-box .form-input i {
   transition: all .4s ease;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  text-decoration: line-through;
+  
 }
 
 #page-content #projects ul.filters li.is-checked, #page-content #projects-filters ul.filters li.is-checked, #page-content #masonry-filters ul.filters li.is-checked, #page-content #showcase-treks ul.filters li.is-checked, #page-content #gallery ul.filters li.is-checked {
