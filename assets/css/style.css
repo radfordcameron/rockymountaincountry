@@ -2352,9 +2352,9 @@ header nav.navbar #logo a.navbar-brand {
 }
 
 header nav.navbar #logo a.navbar-brand img {
-  max-height: 66px;
+  max-height: 52px;
   width: auto;
-  margin-top: -12px;
+  margin-top: -7px;
 }
 
 @media screen and (max-width: 480px) {
